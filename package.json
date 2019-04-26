@@ -1,0 +1,19 @@
+{
+  "name": "workshop-2",
+  "version": "1.0.0",
+  "description": "SPA ",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RocioNatalia/Workshop-2-pw.git"
+  },
+  "author": "Rocio Natalia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RocioNatalia/Workshop-2-pw/issues"
+  },
+  "homepage": "https://github.com/RocioNatalia/Workshop-2-pw#readme"
+}
