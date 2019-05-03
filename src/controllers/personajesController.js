@@ -93,7 +93,7 @@ function cargaMasContenido(url) {
                                     <td id="ojos_${idDeCarga}">${ojosTraducidos}</td>
                                     <td id="altura_${idDeCarga}">${alturaPersonaje} cm</td>
                                     <td id="peso_${idDeCarga}">${pesoPersonaje} kg</td>
-                                    <td><button type="button" class="btn btn-danger btn_guardar" id="btn_${idDeCarga}">Guardar</button></td>
+                                    <td><button type="button" class="btn btn-success btn_guardar" id="btn_${idDeCarga}">Guardar</button></td>
                             </tr>`);
 
 			$('#tableBodyPersonajes').append(nodoLi);
