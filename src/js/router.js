@@ -1,15 +1,35 @@
-import crossroads from 'crossroads'
-import homeController from '../controllers/homeController' 
+// router.js maneja las rutas que uno ingresa en el navegador
 
-crossroads.addRoute('#/home' , function (){
-    $('#root').load('./partials/home.html', homeController)
+import crossroads from 'crossroads'
+import homeAnimacion from '../controllers/homeController'
+import personajesController from '../controllers/personajesController'
+import guardadosController from '../controllers/guardadosController'
+import contactoController from '../controllers/contactoController'
+
+
+crossroads.addRoute("/", function() {
+    $("#root").load("./partials/home.html", homeAnimacion)
 })
 
-//cargar contenido dinamico que levante el html
+crossroads.addRoute("#/home", function() {
+    $("#root").load("./partials/home.html", homeAnimacion)
+})
 
-//para que funcione correctamente crossroads
+crossroads.addRoute("#/personajes", function() {
+    $("#root").load("./partials/personajes.html", personajesController)
+})
 
-$(window).on('hashchange', function () {
+crossroads.addRoute("#/guardados", function() {
+    $("#root").load("./partials/guardados.html", guardadosController)
+})
+
+crossroads.addRoute("#/contacto", function() {
+    $("#root").load("./partials/contacto.html", contactoController)
+})
+
+
+// Para que funcione correctamente crossroads
+$(window).on("hashchange", function () {
     crossroads.parse(window.location.hash)
 })
 

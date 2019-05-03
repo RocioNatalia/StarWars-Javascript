@@ -1,6 +1,7 @@
-import { devolverListaLocalStorage, cargarListaLocalStorage } from './utils/LocalStoraje'
 
-cargarListaLocalStorage ('personajesSW' , ['Luke' , 'Han' , 'Leia'])
-devolverListaLocalStorage ()
+// las llaves se utilizan cuando hay más de una importación
+//import traductor from './traductor'
+import './router'
 
-import './router' 
+//traductor()
+
