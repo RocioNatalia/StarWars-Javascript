@@ -312,7 +312,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction traducir (textoAtrad
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! /home/rocio/Escritorio/Programacion Web/Workshop-2/src/index.js */\"./src/index.js\");\n\n\n//# sourceURL=webpack:///multi_./src/index.js?");
+eval("module.exports = __webpack_require__(/*! /home/rocio/Proyectos/SPA-StarWars/src/index.js */\"./src/index.js\");\n\n\n//# sourceURL=webpack:///multi_./src/index.js?");
 
 /***/ })
 
