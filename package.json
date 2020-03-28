@@ -10,14 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocioNatalia/Workshop-2-pw.git"
+    "url": "git+https://github.com/RocioNatalia/StarWars-Javascript.git"
   },
   "author": "Rocio",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RocioNatalia/Workshop-2-pw/issues"
-  },
-  "homepage": "https://github.com/RocioNatalia/Workshop-2-pw#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "crossroads": "^0.12.2",
